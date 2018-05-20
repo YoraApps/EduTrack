@@ -9531,7 +9531,7 @@ html:not(.lt-ie10) .not-animated {
   padding-top: 30px;
   padding-bottom: 30px;
   transition: .3s ease-out all;
-  height:110px;
+  height:125px;
 }
 
 .rd-navbar-static .rd-navbar-aside-right {
