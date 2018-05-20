@@ -13,6 +13,16 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,400i,700,900">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+.boxed {
+  border: 1px solid green ;
+background-color: lightblue;
+border: 1px solid;
+    padding: 50px;
+    box-shadow: 5px 10px #888888;
+margin :30px;
+}
+      </style>
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -32,81 +42,124 @@
         </div>
       </div>
       <!-- Page Header-->
-      <header class="page-header page-header-transparent">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-wrap-transparent">
-          <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="80px" data-lg-stick-up-offset="46px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
-            <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/brand-white.png" width="232" height="44" alt=""></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a>
-                      <!-- RD Navbar Dropdown-->
-                      <ul class="rd-navbar-dropdown">
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="team-member-profile.html">Team Member Profile</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="services.html">Services</a>
-                      <!-- RD Navbar Dropdown-->
-                      <ul class="rd-navbar-dropdown">
-                        <li><a href="brand-reputation-management.html">Brand Reputation Management</a></li>
-                        <li><a href="content-advertising.html">Content Advertising</a></li>
-                        <li><a href="contextual-advertising.html">Contextual Advertising</a></li>
-                        <li><a href="content-marketing-management.html">Content Marketing Management</a></li>
-                        <li><a href="email-marketing.html">Email Marketing</a></li>
-                        <li><a href="search-engine-optimization.html">Search Engine Optimization</a></li>
-                        <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="Study-Abroad.html">STUDY ABROAD</a>
-                    </li>
-                    <li><a href="Study_India.html">STUDY IN INDIA</a>
-                    </li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                  </ul>
-                </div>
-                <!--RD Navbar Search-->
-                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
-                  <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
-                    <div class="form-wrap">
-                      <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
-                      <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
-                      <div class="rd-search-results-live" id="rd-search-results-live"></div>
+        <header class="page-header page-header-modern">
+            <!-- RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-modern" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="80px" data-lg-stick-up-offset="70px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+                    <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+                    <div class="rd-navbar-top-panel rd-navbar-collapse">
+                        <div class="rd-navbar-top-panel-inner">
+                            <div class="contact-list">
+                                <ul class="group-lg">
+                                    <li>
+                                        <div class="unit unit-spacing-xxs unit-xxs-horizontal unit-xxs-middle">
+                                            <div class="unit-left"><span class="icon icon-md icon-secondary mdi mdi-phone"></span></div>
+                                            <div class="unit-body">
+                                                <a href="tel:#">+91-984-6524-617</a><span>,</span> <a href="tel:#"> +91-920-7037-752</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="unit unit-spacing-xxs unit-xxs-horizontal unit-xxs-middle">
+                                            <div class="unit-left"><span class="icon icon-md icon-secondary mdi mdi-map-marker"></span></div>
+                                            <div class="unit-body"><a href="#">Calicut, New Bypass Jn.Ramanattukara (Kerala)</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="unit unit-spacing-xxs unit-xxs-horizontal unit-xxs-middle">
+                                            <div class="unit-left"><span class="icon icon-md icon-secondary mdi mdi-email-outline"></span></div>
+                                            <div class="unit-body"><a href="mailto:#">info@edutrackadmission.com</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Social List-->
+                            <ul class="inline-list-md">
+                                <li><a class="icon icon-sm icon-default fa-facebook" href="#"></a></li>
+                                <li><a class="icon icon-sm icon-default fa-twitter" href="#"></a></li>
+                                <li><a class="icon icon-sm icon-default fa-instagram" href="#"></a></li>
+                                <li><a class="icon icon-sm icon-default fa-google" href="#"></a></li>
+                                <li><a class="icon icon-sm icon-default fa-pinterest-p" href="#"></a></li>
+                                <li><a class="icon icon-sm icon-default fa-linkedin" href="#"></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <button class="rd-search-form-submit fa-search"></button>
-                  </form>
-                </div>
-              </div>
+                    <div class="rd-navbar-inner">
+                        <!-- RD Navbar Panel-->
+                        <div class="rd-navbar-panel">
+                            <!-- RD Navbar Toggle-->
+                            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                            <!-- RD Navbar Brand-->
+                            <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/brand-default.png" width="232" height="44" alt=""></a></div>
+                        </div>
+                        <div class="rd-navbar-aside-right">
+                            <div class="rd-navbar-nav-wrap">
+                                <!-- RD Navbar Nav-->
+                                <ul class="rd-navbar-nav">
+                                    <li class="active"><a href="Home.html">Home</a></li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                        <!-- RD Navbar Dropdown-->
+                                        <ul class="rd-navbar-dropdown">
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="team-member-profile.html">Team Member Profile</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Services</a>
+                                        <!-- RD Navbar Dropdown-->
+                                        <ul class="rd-navbar-dropdown">
+                                            <li><a href="brand-reputation-management.html">Brand Reputation Management</a></li>
+                                            <li><a href="content-advertising.html">Content Advertising</a></li>
+                                            <li><a href="contextual-advertising.html">Contextual Advertising</a></li>
+                                            <li><a href="content-marketing-management.html">Content Marketing Management</a></li>
+                                            <li><a href="email-marketing.html">Email Marketing</a></li>
+                                            <li><a href="search-engine-optimization.html">Search Engine Optimization</a></li>
+                                            <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="Study-Abroad.html">STUDY ABROAD</a>
+                                    </li>
+                                    <li>
+                                        <a href="Study_India.html">STUDY IN INDIA</a>
+                                    </li>
+                                    <li><a href="Gallery.html">Gallery</a></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                </ul>
+                            </div>
+                            <!--RD Navbar Search-->
+                            <div class="rd-navbar-search">
+                                <a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
+                                <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
+                                    <div class="form-wrap">
+                                        <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
+                                        <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
+                                        <div class="rd-search-results-live" id="rd-search-results-live"></div>
+                                    </div>
+                                    <button class="rd-search-form-submit fa-search"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
-          </nav>
-        </div>
-      </header>
+        </header>
 
       <!-- Breadcrumbs Section-->
             <section class="section breadcrumb-wrapper breadcrumb-wrapper-xl bg-image bg-image-gel" style="background-image: url(images/bg-image-1.jpg)">
               <div class="container container-wide">
                 <div class="row justify-content-center">
                   <div class="col-xl-7">
-                    <h1>MBBS IN ARMENIA &amp; Traditional Medical University of Armenia</h1>
+                    <h1>MBBS IN ARMENIA</h1>
                     <ul class="inline-list-with-divider">
-                      <li>Dec 28, 2018 at 5:57 pm</li>
-                      <li>by Austin Riley</li>
+                     
                     </ul>
                     <ol class="breadcrumb-custom">
                       <li><a href="Home.html">Home</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li>Blog Post
+                      <li><a href="Study-Abroad.html">Study Abroad</a></li>
+                      <li>
                       </li>
                     </ol>
                   </div>
@@ -120,32 +173,53 @@
             <div class="col-xl-8 col-xxl-6">
               <div class="single-blog row row-60 row-xl-120">
                 <div class="col-sm-12">
-                  <h5 class="text-regular">Best yet, not only does Google maintain their investment in payday loans via LendUp, but there is also a bubble in the personal loans space, so Google will be able to show effectively the same ads for effectively the same service & by the time the P2P loan bubble pops some of the payday lenders will have followed LendUp's lead in re-branding their offers as being something else in name.</h5>
-                  <p>A user comment on Google's announcement blog post gets right to the point... Are you disgusted by Google's backing of LendUp, which lends money at rates of ~ 395% for short periods of time? Check it out. GV (formerly known as Google Ventures) has an investment in LendUp. They currently hold that position.</p><img src="images/gallery-original-02.jpg" width="1200" height="800" alt="">
-                  <p>Meanwhile, off to revolutionize the next industry by claiming everyone else is greedy and scummy and there is a wholesome way to do the same thing leveraging new technology, when in reality the primary difference between the business models is simply a thin veneer of tech utopian PR misinformation.</p>
-                  <div class="row align-content-center row-10">
-                    <div class="col-sm-4 col-md-6"><a class="text-italic" href="#">News</a></div>
-                    <div class="col-sm-8 col-md-6 text-xs-right">
-                      <ul class="inline-list-md list-middle">
-                        <li class="text-italic text-gray-light">Share this post!</li>
-                        <li><a class="icon icon-md icon-default fa-facebook" href="#"></a></li>
-                        <li><a class="icon icon-md icon-default fa-twitter" href="#"></a></li>
-                        <li><a class="icon icon-md icon-default fa-google" href="#"></a></li>
-                      </ul>
-                    </div>
-                  </div>
+                  <h5 class="text-regular"><p>Armenia officially the Republic of Armenia is a sovereign landlocked state in the South Caucasus region of Eurasia spread over an area of 29,700 sq. kms. Armenia presently maintains positive relations with almost every country in the world.
+
+The Republic of Armenia constitutes only one-tenth of historical Armenia. Study MBBS in Armenia is a unitary, multi-party, democratic nation-state with an ancient cultural heritage. Urartu was established in 860 BC and by the 6th century BC it was replaced by the Satrapy of Armenia in the 1st century BC the Kingdom of Armenia reached its height under Tigranes the Great. Armenia became the first state the first state in the world to adopt Christianity as its official religion. In between the late 3rd century to early years of the 4th century, the state became the first Christian nation.Study in Armenia is something worth considering in case of students who wish to study MBBS in Europe..</p><img src="images/Yerevan_State_University-e1525290920401.jpg" width="1200" height="800" alt="">
+                  <p>The city expanded rapidly during the 20th century as Armenia became part of Soviet Union. In a few decades, Yerevan was transformed from a provincial town within the Russian Empire, to Armenia’s principal culture, artistic and industrial center, as well as becoming the seat of national government. 2007, it has 5400 students, 6000 alumni, 300 teachers (among them 48 professors, 64 PhD, 12 Academicians) Study in Armenia .</p>
+                  
                 </div>
+                
+
+
+ 
+   
                 <div class="col-sm-12">
-                  <h5>Posted by</h5>
+                  <h5>Why Armenia?</h5>
                   <div class="heading-divider"></div>
                   <div class="unit unit-xxs unit-xs unit-xs-horizontal">
-                    <div class="unit-left"><img class="img-circle" src="images/blog-modern-01-130x130.jpg" alt="" width="130" height="130"/>
-                    </div>
+                    <!--<div class="unit-left"><img class="img-circle" src="images/blog-modern-01-130x130.jpg" alt="" width="130" height="130"/>
+                    </div>-->
                     <div class="unit-body">
-                      <p class="quote-info-name">Austin Riley</p>
-                      <p class="quote-info-cite">SEO Expert, Marketer</p>
-                      <p>Born and raised in a small village near Gatwick, Austin moved to London after graduating from the University of Surrey with a BSc in Business Studies, which is where he fell in love with Marketing. Since graduating, Austin has worked for a marketing capability consultancy managing a variety of client projects including Aviva, Hewlett Packard, Honda, Tesco and Vodafone.</p>
+                      <p class="quote-info-name">Cost Effective</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>When we talk about a country that provides the best possible facilities in all sectors, you might feel that such a country would be too expensive to live in. That’s where you are wrong. The cost of living is very low and budget friendly.</p>
+                      <br/>
+                      <p class="quote-info-name">Attractive Fee Structure</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>Studying MBBS in many countries is very expensive. The cost of MBBS in Armenia however is very low. The MBBS in Armenia fee is very affordable leaving students free not to worry about financial matters.</p>
+                      <br/>
+                      <p class="quote-info-name">Globally Recognized Medical Degree</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>The Armenian medical degree is globally recognized and is listed by many International bodies such as World Health Organization, European Union, The International Medical Education Directory, Medical and Dental council of India and General Medical Council UK. Also, the MBBS colleges in Armenia provide training for USMLE and other medical licensing examinations. The Armenian medical colleges are recognized by the MCI. The students who graduate from Armenia will be allowed to sit for the MCI screening test.</p>
+                      <br/>
+                      <p class="quote-info-name">No Entrance Exams</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>Many countries like India have very demanding and difficult entrance examinations like NEET exam that you need to crack before you can actually attend medical school. Such entrance tests have many times destroyed many MBBS dreams. In Armenia, no such pressurizing exam exists and you are free to join any university of your choice. This is one of the main reasons that you should do your MBBS in Armenia.</p>
+                      <br/>
+                      <p class="quote-info-name">High Quality Education</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>The MBBS colleges in Armenia combine theoretical and practical learning in such a way that students are taught in the most effective way possible. All the professors who teach medicine in Armenia are highly trained to deal with international students. The use of innovative teaching aids and modern instruments make the quality of education in Armenia very high. The instruction medium is in English allowing international students to concentrate on learning medicine rather than learning a new language.</p>
+                      <br/>
+                      <p class="quote-info-name">Quality Hospitals for Internships</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>From the second year onwards, students studying medicine in Armenia are eligible to attend internships. The hospitals affiliated to the medical colleges in Armenia provide top quality health care and use the latest medical technologies and instruments. These hospitals are also capable of housing a large number of students and patients.</p>
+                      <br/>
+                      <p class="quote-info-name">Good Accommodation</p>
+                      <!--<p class="quote-info-cite">SEO Expert, Marketer</p>-->
+                      <p>Separate hostels are provided for international students with hot and cold water. Central heating is also provided in all hostels. All types of vegetarian and non-vegetarian dishes are also provided. All this at a very low cost.</p>
                     </div>
+                    
                   </div>
                 </div>
                 <div class="col-sm-12">
@@ -153,25 +227,26 @@
                   <div class="heading-divider"></div>
                   <div class="row row-40">
                     <div class="col-md-6">
-                      <div class="blog-demo"><img src="images/project-01-420x320.jpg" alt="" width="570" height="380"/>
+                      <div class="blog-demo"><img src="images/study in india .jpg" alt="" width="570" height="380"/>
                         <div class="blog-demo-inner">
-                          <h5 class="blog-demo-title"><a href="#"> How Google Search Works in 2018</a></h5>
-                          <p>Many years ago we created an infographic about how search works, from the perspective of a content creator, starting with their content & following it through the indexing & ranking process. As users have shifted to mobile devices, the limited screen size of the devices has...</p>
+                          <h5 class="blog-demo-title"><a href="#"> 
+Globally Recognized Medical Degree</a></h5>
+                          <p>The Armenian medical degree is globally recognized and is listed by many International bodies such as World Health Organization, European Union, The International Medical Education Directory, Medical and Dental council of India and General Medical Council UK. Also, the MBBS colleges in Armenia provide training for USMLE and other medical licensing examinations. The Armenian medical colleges are recognized by the MCI.The students who graduate from Armenia will be allowed to sit for the MCI screening test. ...</p>
                           <ul class="inline-list-with-divider">
-                            <li>Dec 28, 2018 at 5:57 pm</li>
-                            <li><a href="#"> by Austin Riley</a></li>
+                            <li></li>
+                            <li><a href="#"> </a></li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <div class="blog-demo"><img src="images/79b3d583-9705-498f-a153-5ebe740f9378.jpg" alt="" width="570" height="380"/>
+                      <div class="blog-demo"><img src="images/84d69540-4310-43d8-8250-0fce42f4fd89.jpg" alt="" width="570" height="380"/>
                         <div class="blog-demo-inner">
-                          <h5 class="blog-demo-title"><a href="#"> Extending SEO Services</a></h5>
-                          <p>Change creates opportunity - new changes, new channels, new options, new models, and new methods. We have decided extend the range of our SEO services and now we are introducing new set of services connected with paid search, since clearly that is the future of all search marketing.</p>
+                          <h5 class="blog-demo-title"><a href="#"> High Quality Education</a></h5>
+                          <p>The MBBS colleges in Armenia combine theoretical and practical learning in such a way that students are taught in the most effective way possible. All the professors who teach medicine in Armenia are highly trained to deal with international students. The use of innovative teaching aids and modern instruments make the quality of education in Armenia very high. The instruction medium is in English allowing international students to concentrate on learning medicine rather than learning a new language.</p>
                           <ul class="inline-list-with-divider">
-                            <li>Dec 28, 2018 at 5:57 pm</li>
-                            <li><a href="#"> by Austin Riley</a></li>
+                            <li></li>
+                            <li><a href="#"> </a></li>
                           </ul>
                         </div>
                       </div>
@@ -409,19 +484,19 @@
                   <li>
                     <div class="unit unit-spacing-xs unit-xxs-horizontal">
                       <div class="unit-left"><span class="icon icon-md icon-secondary mdi mdi-map-marker"></span></div>
-                      <div class="unit-body"><a href="#">2130 Fulton Street San Diego,<br>CA 94117-1080 USA</a></div>
+                      <div class="unit-body"><a href="#">New Bypass Jn.Ramanattukara,<br>Calicut, Kerala</a></div>
                     </div>
                   </li>
                   <li>
                     <div class="unit unit-spacing-xs unit-xxs-horizontal">
                       <div class="unit-left"><span class="icon icon-md icon-secondary mdi mdi-phone"></span></div>
-                      <div class="unit-body"><a href="tel:#">1-800-1234-567</a></div>
+                      <div class="unit-body"><a href="tel:#">+91-984-6524-617</a></div>
                     </div>
                   </li>
                   <li>
                     <div class="unit unit-spacing-xs unit-xxs-horizontal">
                       <div class="unit-left"><span class="icon icon-md icon-secondary mdi mdi-email-outline"></span></div>
-                      <div class="unit-body"><a href="mailto:#">info@demolink.org</a></div>
+                      <div class="unit-body"><a href="mailto:#">info@edutrack.com</a></div>
                     </div>
                   </li>
                 </ul>
