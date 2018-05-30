@@ -5922,15 +5922,15 @@ html .row-60 > * {
 }
 
 .bg-primary .button-primary:hover {
-  color: #fff;
-  background-color: transparent;
+  color: #46a3f2;
+  background-color: white;
   border-color: #fff;
 }
 
 .bg-primary .button-primary-outline, .bg-primary .button-primary-outline:focus, .bg-primary .button-primary-outline:active {
-  color: #fff;
+  color: #ffb936;
   background-color: transparent;
-  border-color: #fff;
+  border-color: #ffb936;
 }
 
 .bg-primary .button-primary-outline:hover {
@@ -5952,14 +5952,14 @@ html .row-60 > * {
 }
 
 .bg-primary .button-secondary, .bg-primary .button-secondary:focus, .bg-primary .button-secondary:active {
-  color: #414042;
-  background-color: #ffb936;
-  border-color: #ffb936;
+  color: white;
+  background-color: #46a3f2;
+  border-color: #46a3f2;
 }
 
 .bg-primary .button-secondary:hover {
-  color: #fff;
-  background-color: transparent;
+  color: #46a3f2;
+  background-color: white;
   border-color: #fff;
 }
 
