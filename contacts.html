@@ -140,7 +140,7 @@
     padding: 10px;
     font-family: serif;
     font-weight:  bold;
-"><marquee>Contacts</marquee></div>
+">Contacts</div>
       <!-- Get in Touch Section-->
       <section class="section section-lg bg-white">
         <div class="container container-wide">
@@ -152,6 +152,7 @@
                 <p> We would be happy to answer your questions.</p>
               </div>
               <!-- RD Mailform-->
+             
               <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="mail.php">
                 <div class="row justify-content-center row-15">
                   <div class="col-md-6">
@@ -186,8 +187,10 @@
                   </div>
                 </div>
                 <div class="form-button">
-                  <button class="button button-primary" type="submit" value="Send">Send</button>
+                  <!-- <button class="button button-primary" type="submit" value="SUBMIT">Send</button> -->
+                  <button class="button button-primary" type="submit" name="contactSubmit" id="contactSubmit" value="Send Message">Send</button>
                 </div>
+                <?php include 'echo.php';?>
               </form>
             </div>
             <div class="col-md-10 col-lg-4 col-xl-4 col-xxl-3">
@@ -238,6 +241,7 @@
             <div draggable="false" title="Show imagery with street names" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img alt="" src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div></div></div></div>
         </section>
       <!-- Page Footer-->
+      
       <footer class="section page-footer page-footer-plugin section-md bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-lg row-40 row-lg-60 row-xl-80">
@@ -378,9 +382,10 @@
       </footer>
     </div>
     <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
+    <!-- <div class="snackbars" id="form-output-global"></div> -->
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    
   </body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
 </html>
