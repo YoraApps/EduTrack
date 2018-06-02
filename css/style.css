@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*
 *
 * Trunk version 1.2.2
@@ -5016,7 +5016,7 @@ html .page h2 + .group-md {
 }
 
 .section-lg {
-  padding-top: 70px;
+  padding-top: 0px;
   padding-bottom: 70px;
 }
 
@@ -5035,7 +5035,7 @@ html .page h2 + .group-md {
 
 @media (min-width: 1200px) {
   .section-lg {
-    padding-top: 90px;
+    padding-top: 0px;
     padding-bottom: 90px;
   }
   .section-lg .time_circles, .section-lg .time_circles:last-child {
