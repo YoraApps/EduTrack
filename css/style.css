@@ -6005,7 +6005,7 @@ html .row-60 > * {
 }
 
 .bg-secondary-2, .gallery-item-content {
-  background-color: #0b4576;
+  background-color: #2e85ce;
 }
 
 .bg-secondary-2 + .bg-secondary-2, .gallery-item-content + .bg-secondary-2, .bg-secondary-2 + .gallery-item-content, .gallery-item-content + .gallery-item-content {
@@ -12280,7 +12280,7 @@ yx-axis
 * --------------------------------------------------
 */
 .swiper-container {
-  height: calc(100vh - 119px);
+  height: calc(50vh - 19px);
   margin: 0 auto;
   position: relative;
   overflow: hidden;
